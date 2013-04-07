@@ -1,0 +1,280 @@
+searching using BFS
+
+0         BWWBWBxWW
+1  move 1 BxWBWBWWW
+2  move 5 BBWBWxWWW
+3  move 2 BBxBWWWWW
+4  move 3 BBBxWWWWW
+total path cost: 4.0
+
+searching using DFS
+
+0         BWWBWBxWW
+1  move 8 BWWBWBWWx
+2  move 7 BWWBWBWxW
+3  move 5 BWWBWxWBW
+4  move 8 BWWBWWWBx
+5  move 7 BWWBWWWxB
+6  move 6 BWWBWWxWB
+7  move 8 BWWBWWBWx
+8  move 7 BWWBWWBxW
+9  move 6 BWWBWWxBW
+10  move 4 BWWBxWWBW
+11  move 7 BWWBBWWxW
+12  move 8 BWWBBWWWx
+13  move 6 BWWBBWxWW
+14  move 5 BWWBBxWWW
+15  move 4 BWWBxBWWW
+16  move 3 BWWxBBWWW
+17  move 8 BWWWBBWWx
+18  move 7 BWWWBBWxW
+19  move 6 BWWWBBxWW
+20  move 5 BWWWBxBWW
+21  move 8 BWWWBWBWx
+22  move 7 BWWWBWBxW
+23  move 6 BWWWBWxBW
+24  move 8 BWWWBWWBx
+25  move 7 BWWWBWWxB
+26  move 6 BWWWBWxWB
+27  move 5 BWWWBxWWB
+28  move 4 BWWWxBWWB
+29  move 7 BWWWWBWxB
+30  move 8 BWWWWBWBx
+31  move 6 BWWWWBxBW
+32  move 7 BWWWWBBxW
+33  move 8 BWWWWBBWx
+34  move 6 BWWWWBxWB
+35  move 5 BWWWWxBWB
+36  move 7 BWWWWWBxB
+37  move 8 BWWWWWBBx
+38  move 6 BWWWWWxBB
+39  move 5 BWWWWxWBB
+40  move 4 BWWWxWWBB
+41  move 3 BWWxWWWBB
+42  move 2 BWxWWWWBB
+43  move 8 BWBWWWWBx
+44  move 7 BWBWWWWxB
+45  move 6 BWBWWWxWB
+46  move 8 BWBWWWBWx
+47  move 7 BWBWWWBxW
+48  move 6 BWBWWWxBW
+49  move 5 BWBWWxWBW
+50  move 7 BWBWWBWxW
+51  move 8 BWBWWBWWx
+52  move 6 BWBWWBxWW
+53  move 5 BWBWWxBWW
+54  move 4 BWBWxWBWW
+55  move 6 BWBWBWxWW
+56  move 8 BWBWBWWWx
+57  move 7 BWBWBWWxW
+58  move 5 BWBWBxWWW
+59  move 4 BWBWxBWWW
+60  move 3 BWBxWBWWW
+61  move 5 BWBBWxWWW
+62  move 8 BWBBWWWWx
+63  move 7 BWBBWWWxW
+64  move 6 BWBBWWxWW
+65  move 4 BWBBxWWWW
+66  move 3 BWBxBWWWW
+67  move 2 BWxBBWWWW
+68  move 1 BxWBBWWWW
+69  move 4 BBWBxWWWW
+70  move 8 BBWBWWWWx
+71  move 7 BBWBWWWxW
+72  move 6 BBWBWWxWW
+73  move 5 BBWBWxWWW
+74  move 3 BBWxWBWWW
+75  move 8 BBWWWBWWx
+76  move 7 BBWWWBWxW
+77  move 6 BBWWWBxWW
+78  move 5 BBWWWxBWW
+79  move 8 BBWWWWBWx
+80  move 7 BBWWWWBxW
+81  move 6 BBWWWWxBW
+82  move 8 BBWWWWWBx
+83  move 7 BBWWWWWxB
+84  move 6 BBWWWWxWB
+85  move 5 BBWWWxWWB
+86  move 4 BBWWxWWWB
+87  move 8 BBWWBWWWx
+88  move 7 BBWWBWWxW
+89  move 6 BBWWBWxWW
+90  move 5 BBWWBxWWW
+91  move 4 BBWWxBWWW
+92  move 2 BBxWWBWWW
+93  move 5 BBBWWxWWW
+94  move 8 BBBWWWWWx
+95  move 7 BBBWWWWxW
+96  move 6 BBBWWWxWW
+97  move 4 BBBWxWWWW
+98  move 3 BBBxWWWWW
+total path cost: 98.0
+
+searching using UCS
+
+0         BWWBWBxWW
+1  move 2 BWxBWBWWW
+2  move 5 BWBBWxWWW
+3  move 1 BxBBWWWWW
+4  move 3 BBBxWWWWW
+total path cost: 4.0
+
+searching using GS
+
+0         BWWBWBxWW
+1  move 1 BxWBWBWWW
+2  move 5 BBWBWxWWW
+3  move 2 BBxBWWWWW
+4  move 3 BBBxWWWWW
+total path cost: 4.0
+
+searching using A*
+
+0         BWWBWBxWW
+1  move 1 BxWBWBWWW
+2  move 5 BBWBWxWWW
+3  move 2 BBxBWWWWW
+4  move 3 BBBxWWWWW
+total path cost: 4.0
+
+searching using BFS
+
+0         BWWBWBxWW
+1  move 1 BxWBWBWWW (c=5.0)
+2  move 5 BBWBWxWWW (c=4.0)
+3  move 2 BBxBWWWWW (c=3.0)
+4  move 3 BBBxWWWWW (c=1.0)
+total path cost: 13.0
+
+searching using DFS
+
+0         BWWBWBxWW
+1  move 8 BWWBWBWWx (c=2.0)
+2  move 7 BWWBWBWxW (c=1.0)
+3  move 5 BWWBWxWBW (c=2.0)
+4  move 8 BWWBWWWBx (c=3.0)
+5  move 7 BWWBWWWxB (c=1.0)
+6  move 6 BWWBWWxWB (c=1.0)
+7  move 8 BWWBWWBWx (c=2.0)
+8  move 7 BWWBWWBxW (c=1.0)
+9  move 6 BWWBWWxBW (c=1.0)
+10  move 4 BWWBxWWBW (c=2.0)
+11  move 7 BWWBBWWxW (c=3.0)
+12  move 8 BWWBBWWWx (c=1.0)
+13  move 6 BWWBBWxWW (c=2.0)
+14  move 5 BWWBBxWWW (c=1.0)
+15  move 4 BWWBxBWWW (c=1.0)
+16  move 3 BWWxBBWWW (c=1.0)
+17  move 8 BWWWBBWWx (c=5.0)
+18  move 7 BWWWBBWxW (c=1.0)
+19  move 6 BWWWBBxWW (c=1.0)
+20  move 5 BWWWBxBWW (c=1.0)
+21  move 8 BWWWBWBWx (c=3.0)
+22  move 7 BWWWBWBxW (c=1.0)
+23  move 6 BWWWBWxBW (c=1.0)
+24  move 8 BWWWBWWBx (c=2.0)
+25  move 7 BWWWBWWxB (c=1.0)
+26  move 6 BWWWBWxWB (c=1.0)
+27  move 5 BWWWBxWWB (c=1.0)
+28  move 4 BWWWxBWWB (c=1.0)
+29  move 7 BWWWWBWxB (c=3.0)
+30  move 8 BWWWWBWBx (c=1.0)
+31  move 6 BWWWWBxBW (c=2.0)
+32  move 7 BWWWWBBxW (c=1.0)
+33  move 8 BWWWWBBWx (c=1.0)
+34  move 6 BWWWWBxWB (c=2.0)
+35  move 5 BWWWWxBWB (c=1.0)
+36  move 7 BWWWWWBxB (c=2.0)
+37  move 8 BWWWWWBBx (c=1.0)
+38  move 6 BWWWWWxBB (c=2.0)
+39  move 5 BWWWWxWBB (c=1.0)
+40  move 4 BWWWxWWBB (c=1.0)
+41  move 3 BWWxWWWBB (c=1.0)
+42  move 2 BWxWWWWBB (c=1.0)
+43  move 8 BWBWWWWBx (c=6.0)
+44  move 7 BWBWWWWxB (c=1.0)
+45  move 6 BWBWWWxWB (c=1.0)
+46  move 8 BWBWWWBWx (c=2.0)
+47  move 7 BWBWWWBxW (c=1.0)
+48  move 6 BWBWWWxBW (c=1.0)
+49  move 5 BWBWWxWBW (c=1.0)
+50  move 7 BWBWWBWxW (c=2.0)
+51  move 8 BWBWWBWWx (c=1.0)
+52  move 6 BWBWWBxWW (c=2.0)
+53  move 5 BWBWWxBWW (c=1.0)
+54  move 4 BWBWxWBWW (c=1.0)
+55  move 6 BWBWBWxWW (c=2.0)
+56  move 8 BWBWBWWWx (c=2.0)
+57  move 7 BWBWBWWxW (c=1.0)
+58  move 5 BWBWBxWWW (c=2.0)
+59  move 4 BWBWxBWWW (c=1.0)
+60  move 3 BWBxWBWWW (c=1.0)
+61  move 5 BWBBWxWWW (c=2.0)
+62  move 8 BWBBWWWWx (c=3.0)
+63  move 7 BWBBWWWxW (c=1.0)
+64  move 6 BWBBWWxWW (c=1.0)
+65  move 4 BWBBxWWWW (c=2.0)
+66  move 3 BWBxBWWWW (c=1.0)
+67  move 2 BWxBBWWWW (c=1.0)
+68  move 1 BxWBBWWWW (c=1.0)
+69  move 4 BBWBxWWWW (c=3.0)
+70  move 8 BBWBWWWWx (c=4.0)
+71  move 7 BBWBWWWxW (c=1.0)
+72  move 6 BBWBWWxWW (c=1.0)
+73  move 5 BBWBWxWWW (c=1.0)
+74  move 3 BBWxWBWWW (c=2.0)
+75  move 8 BBWWWBWWx (c=5.0)
+76  move 7 BBWWWBWxW (c=1.0)
+77  move 6 BBWWWBxWW (c=1.0)
+78  move 5 BBWWWxBWW (c=1.0)
+79  move 8 BBWWWWBWx (c=3.0)
+80  move 7 BBWWWWBxW (c=1.0)
+81  move 6 BBWWWWxBW (c=1.0)
+82  move 8 BBWWWWWBx (c=2.0)
+83  move 7 BBWWWWWxB (c=1.0)
+84  move 6 BBWWWWxWB (c=1.0)
+85  move 5 BBWWWxWWB (c=1.0)
+86  move 4 BBWWxWWWB (c=1.0)
+87  move 8 BBWWBWWWx (c=4.0)
+88  move 7 BBWWBWWxW (c=1.0)
+89  move 6 BBWWBWxWW (c=1.0)
+90  move 5 BBWWBxWWW (c=1.0)
+91  move 4 BBWWxBWWW (c=1.0)
+92  move 2 BBxWWBWWW (c=2.0)
+93  move 5 BBBWWxWWW (c=3.0)
+94  move 8 BBBWWWWWx (c=3.0)
+95  move 7 BBBWWWWxW (c=1.0)
+96  move 6 BBBWWWxWW (c=1.0)
+97  move 4 BBBWxWWWW (c=2.0)
+98  move 3 BBBxWWWWW (c=1.0)
+total path cost: 157.0
+
+searching using UCS
+
+0         BWWBWBxWW
+1  move 1 BxWBWBWWW (c=5.0)
+2  move 5 BBWBWxWWW (c=4.0)
+3  move 2 BBxBWWWWW (c=3.0)
+4  move 3 BBBxWWWWW (c=1.0)
+total path cost: 13.0
+
+searching using GS
+
+0         BWWBWBxWW
+1  move 1 BxWBWBWWW (c=5.0)
+2  move 5 BBWBWxWWW (c=4.0)
+3  move 2 BBxBWWWWW (c=3.0)
+4  move 3 BBBxWWWWW (c=1.0)
+total path cost: 13.0
+
+searching using A*
+
+0         BWWBWBxWW
+1  move 4 BWWBxBWWW (c=2.0)
+2  move 2 BWxBWBWWW (c=2.0)
+3  move 3 BWBxWBWWW (c=1.0)
+4  move 5 BWBBWxWWW (c=2.0)
+5  move 4 BWBBxWWWW (c=1.0)
+6  move 1 BxBBWWWWW (c=3.0)
+7  move 3 BBBxWWWWW (c=2.0)
+total path cost: 13.0

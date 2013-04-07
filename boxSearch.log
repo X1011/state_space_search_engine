@@ -1,0 +1,10 @@
+searching using A*
+
+0
+1  thinkgeek -> usps
+2  usps -> shelf
+3  airbed -> smith
+4  susan -> ifl90
+5  shelf -> chair
+6  ifl90 -> sager
+total path cost: 77660.25
