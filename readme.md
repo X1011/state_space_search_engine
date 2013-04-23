@@ -15,7 +15,7 @@ See [tileSearch.bat](tileSearch.bat) for how to run it. The -cost flag tells it 
 
 boxSearch
 =========
-This one was created to solve a real-world problem of interest to me: how to nest boxes inside each other in order to minimize the space they occupy (the sum of the volumes of the outermost boxes). The input file gives a list of boxes, one on each line, with an identifier for the box and the dimensions of the box, in any order.
+This one was created to solve a real-world problem of interest to me: how to nest boxes inside each other in order to minimize the space they occupy (the sum of the volumes of the outermost boxes). The input file gives a list of boxes, one on each line, with an identifier for the box and the dimensions of the box, in any order. For simplicity, I restrict the problem so that each box can contain at most one box, which must fit completely inside, so that the containing box can close.
 
 See [boxSearch.bat](boxSearch.bat) for how to run it. Note that A* is specified as A_star rather than A-star for this one, just because i'm passing the argument directly to an enum and it doesn't allows dashes in the names.
 
