@@ -21,4 +21,4 @@ See [boxSearch.bat](boxSearch.bat) for how to run it. Note that A* is specified 
 
 I created the GraphML files to help me manually verify a solution to this problem.
 
-I have discovered that the way I've defined the cost can lead to a non-optimal solution. (It will prefer placing the largest possible box (in terms of volume) into a given box, but this is too limiting if a smaller box has fewer possible boxes it can fit in due to its shape.) 
+I have discovered that the way I've defined the cost can lead to a non-optimal solution. It will prefer placing the largest possible box (in terms of volume) into a given box, but this is too limiting if a smaller box has fewer possible boxes it can fit in due to its shape.
